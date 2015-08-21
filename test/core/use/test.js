@@ -7,6 +7,7 @@ describe('.use()', function() {
         var options = this.comb.getOptionsOrder();
         var expected = [
           'always-semicolon',
+          'lines-between-rulesets',
           'remove-empty-rulesets',
           'color-case',
           'color-shorthand',
